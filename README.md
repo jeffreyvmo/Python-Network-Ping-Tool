@@ -161,5 +161,5 @@ This was built as a hands-on Python learning project. Concepts covered:
 
 ## 👤 Author
 
-Built by [Your Name]  
+Built by Jeffrey  
 Feel free to fork, use, or improve this tool.

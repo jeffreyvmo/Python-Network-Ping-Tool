@@ -22,9 +22,9 @@ A command-line network monitoring tool built in Python that pings devices, displ
 ══════════════════════════════════════════════════════════
   Pinging 27 device(s)...
 ══════════════════════════════════════════════════════════
-  [ONLINE ]  BR-01-UPS-01                   (192.168.1.10)   ← green
-  [ONLINE ]  BR-02-UPS-01                   (192.168.1.11)   ← green
-  [OFFLINE]  BR-03-UPS-01                   (192.168.1.12)   ← red
+  [ONLINE ]  DEVICE-01                   (192.168.1.10)   ← green
+  [ONLINE ]  DEVICE-02                   (192.168.1.11)   ← green
+  [OFFLINE]  DEVICE-03                   (192.168.1.12)   ← red
   ...
 
 ══════════════════════════════════════════════════════════
@@ -33,7 +33,7 @@ A command-line network monitoring tool built in Python that pings devices, displ
   Total   : 27
   Online  : 26 device(s) responded.
   Offline : 1 device(s) did not respond:
-    - BR-03-UPS-01                   (192.168.1.12)
+    - DEVICE-03                   (192.168.1.12)
 ══════════════════════════════════════════════════════════
 
   Would you like to save these results to a file? (yes/no):
@@ -85,9 +85,9 @@ Type in a device name and IP address directly.
 Opens a file explorer popup. Select a tab-separated .txt file formatted like this:
 
 ```
-BR-01-UPS-01    192.168.1.10
-BR-02-UPS-01    192.168.1.11
-BR-03-UPS-01    192.168.1.12
+DEVICE-01    192.168.1.10
+DEVICE-02    192.168.1.11
+DEVICE-03    192.168.1.12
 ```
 
 **Option 3 — Import from Excel:**
